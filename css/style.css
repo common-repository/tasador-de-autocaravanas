@@ -1,0 +1,256 @@
+#wrapper-modelo, #wrapper-fecha, #wrapper-motor,
+#wrapper-potencia, #wrapper-fecha, #wrapper-kilometros,
+#wrapper-version, #wrapper-resultado{
+    display: none;
+}
+
+/* GENERAL */
+
+.mainContainer{
+    margin-bottom: 50px;
+}
+
+#contenedor .rowMargin, .staiapps-bs .rowMargin{
+    margin-top: 60px;
+}
+
+#contenedor .rowElements, .staiapps-bs .rowElements{
+    margin-top: 10px;
+}
+
+#contenedor .btnActivo, .staiapps-bs .btnActivo{
+    background-color: #b4b4b4;
+    border-color: #6b6c6d;
+    border-width: 1px;
+}
+
+#contenedor .btnNormal, .staiapps-bs .btnNormal{
+    width: 100%;
+    border-width: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 6px 6px;
+    font-size: 14px;
+    color: #333 !important;
+}
+
+#contenedor .iconArrow, .staiapps-bs .iconArrow{
+    font-size: 18px;
+}
+
+#contenedor .opacityContent, .staiapps-bs .opacityContent{
+    opacity: 0.4;
+}
+
+#contenedor .cutText, .staiapps-bs .cutText{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* MODAL */
+#contenedor .centerTextModal, .staiapps-bs .centerTextModal {
+    text-align: center;
+}
+
+#contenedor #backgroundBodyError, .staiapps-bs #backgroundBodyError{
+    background-color: #f5e7e7;
+}
+
+#contenedor #backgroundBodyInfo, .staiapps-bs #backgroundBodyInfo{
+    background-color: #efefef;
+}
+
+#contenedor .textHeaderInfo, .staiapps-bs .textHeaderInfo{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#contenedor .textHeaderError, .staiapps-bs .textHeaderError{
+    font-size: 24px;
+    color: #a94442;
+}
+
+#contenedor .textError, .staiapps-bs .textError {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+#contenedor #botonInfo, .staiapps-bs #botonInfo {
+    background-color: #4e5256;
+    color: white;
+}
+
+/* LOADING */
+#contenedor .se-pre-con {
+    display: none;
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/loader.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 50%;
+    right: 50%;
+    top: 55%;
+    position: absolute;
+    z-index: 9999;
+    opacity: 1 !important;
+}
+
+#contenedor .se-pre-result {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/loader.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+/* SELECCION DE MARCAS */
+
+#contenedor .buttonRetry {
+    display: none;
+    border-width: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 6px 6px;
+    font-size: 14px;
+    left: 50%;
+    right: 50%;
+    top: 70%;
+    position: absolute;
+}
+#buttonRetry .show {
+    display: block !important;
+}
+#buttonRetry .hide {
+    display: none !important;
+}
+
+#contenedor #brandContainer, #contenedor #modelContainer, #contenedor #yearContainer {
+    min-height: 40px;
+}
+
+#contenedor .hideRadio {
+    display: none;
+}
+
+#contenedor #brandRow .btnBrand {
+    width: 100%;
+    padding: 12px 12px;
+    webkit-box-shadow: -4px 5px 10px -1px rgba(148,146,148,1);
+    -moz-box-shadow: -4px 5px 10px -1px rgba(148,146,148,1);
+    box-shadow: -4px 5px 10px -1px rgba(148,146,148,1);
+    border-width: 1px;
+}
+#contenedor .imgBrand, .staiapps-bs .imgBrand{
+    height: 70px;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#contenedor .btnMore {
+    background-color: #4e5256;
+    border-width: 2px;
+}
+
+#contenedor .btnMore div {
+    height: 70px;
+    background-color: #4e5256;
+}
+
+#contenedor .btnMore div .show-more {
+    font-size: 36px;
+    color: #e0dede;
+}
+
+#contenedor .btnMore div p {
+    font-size: 16px;
+    color: #e0dede;
+    line-height: initial;
+    white-space: normal;
+}
+
+/* SELECCION KM */
+
+
+#contenedor .botonKM {
+    background: #4e5256;
+    color: #ffffff !important;
+}
+
+#contenedor .inputs {
+    height: 34px;
+}
+
+/* RESULTADO FINAL */
+
+/* #finalResultModal .modalPosition {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+-webkit-transform: translate(-50%, -50%);
+} */
+
+#contenedor .backgroundHeader, .staiapps-bs .backgroundHeader{
+    background-color: #5f6366;
+    color: white;
+}
+
+#contenedor .backgroundHeader button, .staiapps-bs .backgroundHeader button{
+    color: white;
+    opacity: 0.3;
+}
+
+#contenedor #btnNew, .staiapps-bs #btnNew{
+    background-color: #5f6366;
+    color: white;
+    font-size: 14px;
+}
+
+#contenedor .btnSize, .staiapps-bs .btnSize{
+    font-size: 14px;
+}
+#contenedor .btnBack {
+    color: #333 !important;
+}
+
+#contenedor .centerText, .staiapps-bs .centerText{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 70px;
+}
+
+#contenedor .textValue, .staiapps-bs .textValue{
+    font-size: 40px;
+}
+
+#contenedor #backgroundListDetail, .staiapps-bs #backgroundListDetail{
+    background-color: #dcdbdb;
+}
+
+#contenedor .marginFinalResult, .staiapps-bs .marginFinalResult{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#contenedor #botonComprobar, .staiapps-bs #botonComprobar{
+    width: 100%;
+    margin-top: 10px;
+    background-color: #4e5256;
+    color: white;
+    font-size: 14px;
+}
+
+#contenedor .marginCheckLabel, .staiapps-bs .marginCheckLabel{
+    margin-left: 5px;
+    margin-top: 2px;
+}
